@@ -1,5 +1,5 @@
 
-var BASH = require('./');
+var BASH = require('../');
 var assert = require('assert');
 
 var line = null;
