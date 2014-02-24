@@ -2,6 +2,9 @@
 
 turn a js object into something you can access from bash.
 
+JSON is a subset of javascript, and bash-vars is a subset of
+bash. 
+
 ``` js 
 //help-me-please-god.js
 var BASH = require('bash-vars')
@@ -11,6 +14,13 @@ console.log(BASH.stringify({
     baz: 'hello'
   }
 }))
+```
+
+will output
+
+```
+foo=4
+bar__baz=hello
 ```
 
 and then access that in bash like this...
@@ -27,6 +37,15 @@ echo $foo
 echo $bar__baz
 ```
 
+## api
+
+### stringify
+
+convert js object into bash vars
+
+### parse
+
+convert bash vars back into a js object.
 
 ## License
 
