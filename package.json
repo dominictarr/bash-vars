@@ -1,7 +1,7 @@
 {
   "name": "bash-vars",
-  "description": "",
-  "version": "1.0.0",
+  "description": "convert JSON to a format that is easy to read in BASH.",
+  "version": "1.1.0",
   "homepage": "https://github.com/dominictarr/bash-vars",
   "repository": {
     "type": "git",
